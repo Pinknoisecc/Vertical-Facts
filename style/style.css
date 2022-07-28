@@ -27,6 +27,23 @@ body{
 }
 
 
+.carrusel{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+/*CONTACTO*/
+
+/*
+
+#cuadrotexto{
+    border: 10px solid black;
+}
+*/
+
 /*MEDIAQUERY*/
 
 /*ANCHA*/
@@ -40,4 +57,16 @@ body{
 }
 
 /*PEQUEÑA*/
+
+@media (max-width:576px){
+    #formulario{
+        width: 90% !important;
+    }
+
+    .tituloformulario{
+        font-size: 2px;
+    }
+}
+
+
 
