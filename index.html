@@ -13,15 +13,16 @@
 
     <!----NAVBAR---->
 <header>
-    <nav class="navbar navbar-expand-lg bg-info p-3" id="menu">
-                    <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg fixed-top p-3" id="menu">
+                    <div class="container-fluid flex">
+                        <img src="./logotipo/logo100x100.png" class="img-fluid" alt="...">
                         <a class="navbar-brand" href="index.html">
                             <span class="text-primary fs-6 fw-bold">ACC INNOVATION</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ml-auto mr-5 pr-5">
             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             <a class="nav-link active" aria-current="page" href="./secciones/contacto.html">Contacto</a>
             <a class="nav-link active" aria-current="page" href="./secciones/diseño.html">Diseño</a>
@@ -35,7 +36,7 @@
 
 
         <!--CAROUSEL-->
-
+<nav>
 <div class="carrusel">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -60,12 +61,13 @@
             </div>
 </div>
 
+
             <!--INFORMACION-->
 
 
             <section class="w-50 mx-auto text-center pt-5" id="titulo">
-                <h1 class="p-3 fs-2 border-top border-3">Un sitio web a <span class="text-primary">tu medida</span>, tal y como te gusta</h1>
-                <p class="p-3 fs-4"><span class="text-primary">ACC INNOVATION</span> es el lugar perfecto donde crear tus ideas de un sitio web. Lo planificamos, maquetamos tu diseño,
+                <h1 class=" text-light p-3 fs-2 border-top border-3">Un sitio web a <span class="text-primary">tu medida</span>, tal y como te gusta</h1>
+                <p class="text-light p-3 fs-4"><span class="text-primary">ACC INNOVATION</span> es el lugar perfecto donde crear tus ideas de un sitio web. Lo planificamos, maquetamos tu diseño,
                 lo hacemos funcional y listo.
                 </p>
             </section>
@@ -103,11 +105,13 @@
 
     <footer>
 
-        <div class="container-fluid bg-info text-center p-3">
+        <div class="container-fluid bg-primary text-center p-3">
                 <p class="small">&copy;  2022 ACC INNOVATION | Todos los derechos reservados</p>
-                <a title="Instagram" href="http://www.instagram.com"><img src="./iconos/iconoInstagram_20x20.png" alt="Instagram"></a>
-                <a title="Facebook" href="http://www.facebook.com"><img src="./iconos/iconoFacebook_20x20.png" alt="Facebook"></a>
-        </div>
+                <div class="logos flex">
+                    <a title="Instagram" href="http://www.instagram.com"><img src="./iconos/iconoInstagram_20x20.png" alt="Instagram"></a>
+                    <a title="Facebook" href="http://www.facebook.com"><img src="./iconos/iconoFacebook_20x20.png" alt="Facebook"></a>
+                </div>
+            </div>
 
     </footer>
 

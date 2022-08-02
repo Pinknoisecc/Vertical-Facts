@@ -4,26 +4,83 @@
 body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    background-color: black;
 }
+
+
+header{
+    background-image: url(../img/navBAR.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+
+
+.navbar{
+    background-color: black;
+}
+
+
+.navbar-toggler-icon{
+    background-color: #0d6efd;
+}
+
+
+.img-fluid, .raimbow-box{
+    max-width: 100%;
+    height: auto;
+    background-color: #302244;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    height: 100%px;
+    margin: 10px auto;
+    width: auto;
+}
+
 
 /*MENU*/
 
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 #menu a{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
-    color: black;
+    color: rgba(255, 255, 255, 0.801);
+    /*text-shadow: 1px 1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, -1px -1px 0 blue;*/
 }
 
 #menu button{
     font-size: 18px;
     font-weight: bold;
+    color: white;
+}
+
+
+
+.sticky-top{
+    position: sticky;
+    top: 40px;
+    z-index: 1030;
 }
 
 
 /*CAROUSEL*/
 
-.carousel-inner{
+.carousel-inner, .raimbow-box{
     max-height: 39rem;
+    max-width: 100%;
+        height: auto;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image-slice: 1;
+        height: 100%px;
+        margin: 10px auto;
+        width: auto;
 }
 
 
@@ -40,9 +97,30 @@ body{
 }
 
 
+.card, .raimbow-box{
+    max-width: 100%;
+    height: auto;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    height: 100%px;
+    margin: 10px auto;
+    width: auto;
+}
+
+/*FOOTER*/
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
 /*ANIMACIONES*/
 .nav-link:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.5s;
 }
 
@@ -72,21 +150,30 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*CONTACTO*/
+
+.botonform{
+    margin-top: 20px;
+}
+
+
+.tituloformulario{
+    color: white;
+}
+
+/*FORMULARIO*/
+
+.bordeform, .raimbow-box{
+        max-width: 100%;
+        height: auto;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image-slice: 1;
+        height: 100%px;
+        margin: 10px auto;
+        width: auto;
+}
+
 
 /*
 
@@ -98,6 +185,8 @@ body{
 /*MEDIAQUERY*/
 
 /*ANCHA*/
+
+
 @media (max-width:1200px){
     #titulo{
         width: 90% !important;
