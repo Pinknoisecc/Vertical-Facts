@@ -11,7 +11,7 @@ body{
 header{
     background-image: url(../img/navBAR.jpg);
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
 }
 
 
@@ -64,7 +64,7 @@ header{
 
 .sticky-top{
     position: sticky;
-    top: 40px;
+    top: none;
     z-index: 1030;
 }
 
