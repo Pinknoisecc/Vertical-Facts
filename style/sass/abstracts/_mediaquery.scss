@@ -1,0 +1,26 @@
+@media (max-width:1200px){
+    #titulo{
+        width: 90% !important;
+    }
+}
+
+
+/*MEDIANA*/
+
+@media (max-width:768px){
+    #titulo{
+        width: 90% !important;
+    }
+}
+
+/*PEQUEÑA*/
+
+@media (max-width:576px){
+    #formulario{
+        width: 90% !important;
+    }
+
+    .tituloformulario{
+        font-size: 2px;
+    }
+}

@@ -1,0 +1,40 @@
+.carta{
+    display: flex;
+    justify-content: center;
+
+    .card, .raimbow-box{
+        max-width: 100%;
+        height: auto;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image-slice: 1;
+        height: 100%px;
+        margin: 10px auto;
+        width: auto;
+    }
+}
+
+.card:hover{
+    animation: imagenes 1s;
+}
+
+
+@keyframes imagenes{
+    0%{
+
+    }
+    25%{
+        scale: (5);
+    }
+
+    75%{ scale:(5);
+
+    }
+
+    99%{
+        width: 310px;
+    }
+}
+
+
+
