@@ -1,4 +1,15 @@
+/*GRANDE*/
+
 @media (max-width:1200px){
+    #titulo{
+        width: 90% !important;
+    }
+}
+
+
+/*LARGA*/
+
+@media (max-width:992px){
     #titulo{
         width: 90% !important;
     }
@@ -12,6 +23,8 @@
         width: 90% !important;
     }
 }
+
+
 
 /*PEQUEÑA*/
 

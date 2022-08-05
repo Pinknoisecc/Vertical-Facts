@@ -1,5 +1,5 @@
 .bordeform, .raimbow-box{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
@@ -7,6 +7,7 @@
     height: 100%px;
     margin: 10px auto;
     width: auto;
+    margin-bottom: 60px;
 }
 
 .botonform{

@@ -10,32 +10,25 @@ body {
   background-color: black; }
 
 header {
-  background-image: url(../img/navBAR.jpg);
-  background-size: cover;
-  height: 40vh; }
-
-.navbar {
-  background-color: black; }
-
-.navbar-toggler-icon {
-  background-color: #0d6efd; }
-
-.img-fluid, .raimbow-box {
-  max-width: 100%;
-  height: auto;
-  background-color: #302244;
-  border: 5px solid transparent;
-  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-  border-image-slice: 1;
-  height: 100%px;
-  margin: 10px auto;
-  width: auto; }
-
-/*MENU*/
-.container-fluid {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  height: 70vh; }
+  header .navbar {
+    background-color: black; }
+    header .navbar .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      header .navbar .container-fluid .navbar-toggler-icon {
+        background-color: #0d6efd; }
+      header .navbar .container-fluid .img-logo, header .navbar .container-fluid .raimbow-box {
+        max-width: 100%;
+        height: auto;
+        background-color: #302244;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image-slice: 1;
+        height: 100%px;
+        margin: 10px auto;
+        width: auto; }
 
 #menu a {
   font-size: 19px;
@@ -103,7 +96,13 @@ header {
     margin: 10px auto;
     width: auto; }
 
+/*GRANDE*/
 @media (max-width: 1200px) {
+  #titulo {
+    width: 90% !important; } }
+
+/*LARGA*/
+@media (max-width: 992px) {
   #titulo {
     width: 90% !important; } }
 
@@ -120,14 +119,15 @@ header {
     font-size: 2px; } }
 
 .bordeform, .raimbow-box {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   border: 5px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
   height: 100%px;
   margin: 10px auto;
-  width: auto; }
+  width: auto;
+  margin-bottom: 60px; }
 
 .botonform {
   margin-top: 20px; }
