@@ -1,12 +1,12 @@
 header{
-    height: 65vh;
+    height: 100%;
 
     .navbar{
         background-color: black;
 
         .container-fluid{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
 
             .navbar-toggler-icon{
@@ -18,7 +18,7 @@ header{
                 height: auto;
                 background-color: #302244;
                 border: 5px solid transparent;
-                border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+                border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #3120E0 50%, #000000 75%, #fd1892 100%);
                 border-image-slice: 1;
                 height: 100%px;
                 margin: 10px auto;
@@ -28,27 +28,18 @@ header{
     }
 }
 
-
 #menu a{
     font-size: 19px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.801);
-    /*text-shadow: 1px 1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, -1px -1px 0 blue;*/
+    color: black;
 }
 
 #menu button{
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
-
-
-.sticky-top{
-    position: sticky;
-    top: none;
-    z-index: 1030;
-}
 
 .nav-link:hover{
     transform: scale(1.1);

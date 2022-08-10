@@ -7,15 +7,15 @@
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  background-color: black; }
+  background-color: #fff; }
 
 header {
-  height: 65vh; }
+  height: 100%; }
   header .navbar {
     background-color: black; }
     header .navbar .container-fluid {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center; }
       header .navbar .container-fluid .navbar-toggler-icon {
         background-color: #0d6efd; }
@@ -24,7 +24,7 @@ header {
         height: auto;
         background-color: #302244;
         border: 5px solid transparent;
-        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #3120E0 50%, #000000 75%, #fd1892 100%);
         border-image-slice: 1;
         height: 100%px;
         margin: 10px auto;
@@ -33,18 +33,12 @@ header {
 #menu a {
   font-size: 19px;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.801);
-  /*text-shadow: 1px 1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, -1px -1px 0 blue;*/ }
+  color: black; }
 
 #menu button {
   font-size: 18px;
   font-weight: bold;
-  color: white; }
-
-.sticky-top {
-  position: sticky;
-  top: none;
-  z-index: 1030; }
+  color: black; }
 
 .nav-link:hover {
   transform: scale(1.1);
@@ -69,8 +63,6 @@ header {
     margin: 10px auto;
     width: auto; }
 
-.card:hover {
-  animation: imagenes 1s; }
 
 @keyframes imagenes {
   0% { }
