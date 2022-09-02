@@ -60,13 +60,17 @@ header {
   position: relative;
   margin: 15px auto;
   width: 500px;
-  height: 100%;
+  height: 90%;
   background: white;
   border-radius: 75px;
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 2px;
   transition: 1s box-shadow;
+}
+
+.btn{
+  background-color: #0d6efd;
 }
 
 .card-img-top{
@@ -83,7 +87,7 @@ header {
   display: block;
   content: '';
   position: absolute;
-  width: 500px;
+  width: 300px;
   height: 100%;
   background: #FDA8CF;
   border-radius: 75px;
