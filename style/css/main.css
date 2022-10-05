@@ -69,6 +69,10 @@ header {
   transition: 1s box-shadow;
 }
 
+.row{
+  --bs-gutter-x: 0.1rem;
+}
+
 .btn{
   background-color: #0d6efd;
 }
